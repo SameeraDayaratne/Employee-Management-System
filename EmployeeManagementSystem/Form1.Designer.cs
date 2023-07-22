@@ -239,7 +239,7 @@
             // 
             // buttonClose
             // 
-            buttonClose.BackgroundImage = EmployeeManagementSystem.Properties.Resources.close;
+            buttonClose.BackgroundImage = EmployeeManagementSystem.Resource1.close;
             buttonClose.FlatAppearance.BorderSize = 0;
             buttonClose.FlatStyle = FlatStyle.Flat;
             buttonClose.Location = new Point(1316, 33);

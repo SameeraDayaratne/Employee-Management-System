@@ -48,6 +48,7 @@
             dateTimePickerDoB = new DateTimePicker();
             label1 = new Label();
             panel1 = new Panel();
+            buttonClose = new Button();
             label9 = new Label();
             panel2 = new Panel();
             label10 = new Label();
@@ -60,7 +61,6 @@
             label7 = new Label();
             label8 = new Label();
             comboBoxDepartment = new ComboBox();
-            buttonClose = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewEmployees).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -237,6 +237,18 @@
             panel1.Size = new Size(1396, 106);
             panel1.TabIndex = 11;
             // 
+            // buttonClose
+            // 
+            buttonClose.BackgroundImage = EmployeeManagementSystem.Properties.Resources.close;
+            buttonClose.FlatAppearance.BorderSize = 0;
+            buttonClose.FlatStyle = FlatStyle.Flat;
+            buttonClose.Location = new Point(1316, 33);
+            buttonClose.Name = "buttonClose";
+            buttonClose.Size = new Size(47, 47);
+            buttonClose.TabIndex = 23;
+            buttonClose.UseVisualStyleBackColor = true;
+            buttonClose.Click += buttonClose_Click;
+            // 
             // label9
             // 
             label9.AutoSize = true;
@@ -370,18 +382,6 @@
             comboBoxDepartment.Name = "comboBoxDepartment";
             comboBoxDepartment.Size = new Size(151, 28);
             comboBoxDepartment.TabIndex = 21;
-            // 
-            // buttonClose
-            // 
-            buttonClose.BackgroundImage = Properties.Resources.close;
-            buttonClose.FlatAppearance.BorderSize = 0;
-            buttonClose.FlatStyle = FlatStyle.Flat;
-            buttonClose.Location = new Point(1316, 33);
-            buttonClose.Name = "buttonClose";
-            buttonClose.Size = new Size(47, 47);
-            buttonClose.TabIndex = 23;
-            buttonClose.UseVisualStyleBackColor = true;
-            buttonClose.Click += buttonClose_Click;
             // 
             // Form1
             // 

@@ -228,9 +228,9 @@ namespace WinFormsApp2
         private void buttonClose_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you wish to quit?", "Exit Applicatiom", MessageBoxButtons.YesNo);
-            if(result == DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
-                Application.Exit();            
+                Application.Exit();
             }
         }
     }

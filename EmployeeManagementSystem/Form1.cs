@@ -5,7 +5,12 @@ namespace WinFormsApp2
 {
     public partial class Form1 : Form
     {
-        private const string databaseFilePath = "employee.txt"; // Path to the text file database
+      
+        // Get the base directory of the executable
+        private static readonly string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+        // Combine the baseDirectory with "Assets" folder and "employees.txt" file name
+        private static readonly string databaseFilePath = Path.Combine(baseDirectory,"..", "..", "..", "Assests", "employee.txt");
         public Form1()
         {
             InitializeComponent();

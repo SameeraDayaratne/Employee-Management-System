@@ -1,5 +1,2 @@
-Id,First Name,Last Name,Gender,Date of Birth,Phone Number,Email,Department 
-XYZ00163,Same Dayaass,Internee,Male,03-07-2023,0767656455,asdfg@gmai.com,Finance
-XYZ003,aaa,aaa,Female,22-07-2023,213,a@gm.com,Finance
-aa,aa,aa,Female,22-07-2023,121212121212121221,s@g.com,Human Resources
-aaas,aaa,aaa,Male,22-07-2023,1231231432412,s@g.com,Finance
+Id,Name,Position,Gender,Date of Birth,Phone Number,Email,Department 
+XYZ001,Sameera Dayaratne,Intern,Male,05-03-1998,0761234567,sameerad@gmail.com,IT

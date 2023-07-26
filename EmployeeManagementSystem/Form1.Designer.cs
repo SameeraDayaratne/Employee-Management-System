@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             dataGridViewEmployees = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
-            Column6 = new DataGridViewTextBoxColumn();
-            Column7 = new DataGridViewTextBoxColumn();
-            Column8 = new DataGridViewTextBoxColumn();
             button1 = new Button();
             textBoxId = new TextBox();
             textBoxName = new TextBox();
@@ -61,6 +53,14 @@
             label7 = new Label();
             label8 = new Label();
             comboBoxDepartment = new ComboBox();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
+            Column6 = new DataGridViewTextBoxColumn();
+            Column7 = new DataGridViewTextBoxColumn();
+            Column8 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridViewEmployees).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -75,62 +75,6 @@
             dataGridViewEmployees.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders;
             dataGridViewEmployees.Size = new Size(1023, 465);
             dataGridViewEmployees.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Id";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            Column1.Width = 90;
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "First name";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            Column2.Width = 120;
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Last Name";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
-            Column3.Width = 120;
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Gender";
-            Column4.MinimumWidth = 6;
-            Column4.Name = "Column4";
-            Column4.Width = 80;
-            // 
-            // Column5
-            // 
-            Column5.HeaderText = "Date of Birth";
-            Column5.MinimumWidth = 6;
-            Column5.Name = "Column5";
-            Column5.Width = 125;
-            // 
-            // Column6
-            // 
-            Column6.HeaderText = "Phone Number";
-            Column6.MinimumWidth = 6;
-            Column6.Name = "Column6";
-            Column6.Width = 125;
-            // 
-            // Column7
-            // 
-            Column7.HeaderText = "Email";
-            Column7.MinimumWidth = 6;
-            Column7.Name = "Column7";
-            Column7.Width = 125;
-            // 
-            // Column8
-            // 
-            Column8.HeaderText = "Department";
-            Column8.MinimumWidth = 6;
-            Column8.Name = "Column8";
-            Column8.Width = 125;
             // 
             // button1
             // 
@@ -383,6 +327,62 @@
             comboBoxDepartment.Size = new Size(151, 28);
             comboBoxDepartment.TabIndex = 21;
             // 
+            // Column1
+            // 
+            Column1.HeaderText = "Id";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 90;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Name";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.Width = 120;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Position";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.Width = 120;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Gender";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            Column4.Width = 80;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Date of Birth";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.Width = 125;
+            // 
+            // Column6
+            // 
+            Column6.HeaderText = "Phone Number";
+            Column6.MinimumWidth = 6;
+            Column6.Name = "Column6";
+            Column6.Width = 125;
+            // 
+            // Column7
+            // 
+            Column7.HeaderText = "Email";
+            Column7.MinimumWidth = 6;
+            Column7.Name = "Column7";
+            Column7.Width = 125;
+            // 
+            // Column8
+            // 
+            Column8.HeaderText = "Department";
+            Column8.MinimumWidth = 6;
+            Column8.Name = "Column8";
+            Column8.Width = 125;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -447,6 +447,9 @@
         private Label label7;
         private Label label8;
         private ComboBox comboBoxDepartment;
+        private Label label9;
+        private Label label10;
+        private Button buttonClose;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
@@ -455,8 +458,5 @@
         private DataGridViewTextBoxColumn Column6;
         private DataGridViewTextBoxColumn Column7;
         private DataGridViewTextBoxColumn Column8;
-        private Label label9;
-        private Label label10;
-        private Button buttonClose;
     }
 }

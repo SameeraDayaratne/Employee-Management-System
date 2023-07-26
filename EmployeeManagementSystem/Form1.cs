@@ -5,12 +5,12 @@ namespace WinFormsApp2
 {
     public partial class Form1 : Form
     {
-      
+
         // Get the base directory of the executable
         private static readonly string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
         // Combine the baseDirectory with "Assets" folder and "employees.txt" file name
-        private static readonly string databaseFilePath = Path.Combine(baseDirectory,"..", "..", "..", "Assests", "employee.txt");
+        private static readonly string databaseFilePath = Path.Combine(baseDirectory, "..", "..", "..", "Assests", "employee.txt");
         public Form1()
         {
             InitializeComponent();
@@ -114,7 +114,7 @@ namespace WinFormsApp2
             LoadEmployees();
 
             // Clear input fields
-            // ClearInputFields();
+            ClearInputFields();
         }
 
         private void buttonUpdate_Click(object sender, EventArgs e)

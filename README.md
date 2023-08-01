@@ -1,5 +1,9 @@
 # Employee-Management-System
 
+## Demo
+
+https://github.com/SameeraDayaratne/Employee-Management-System/assets/85645373/16e3f7fd-7640-4773-8ab8-d7bdb36da201
+
 ## Installation and Usage
 
 System Requirements:
